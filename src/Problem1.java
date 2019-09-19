@@ -3,30 +3,33 @@ import java.util.Scanner;
 
 public class Problem1 {
 
-    final float exchangeRate = 1.13f;
+
 
 
     public static void main(String args[]) {
 
 
         Scanner input = new Scanner(System.in);
-        float amount = input.nextInt();
+        System.out.print("Enter exchange rate: ");
+        float exchangeRate = input.nextFloat();
 
-        while ( int i = 1;i< 5;i++){
 
+
+        System.out.print("Enter amount: ");
+        float amount = input.nextFloat();
+
+
+        while(amount>0){
+            float result = amount*exchangeRate;
+            System.out.println( "Pounds " + amount +"\tEuros " +  result );
             System.out.print("Enter amount: ");
-
-
-        }
-
-        public float rate ( float a){
-
-            float result = a * exchangeRate;
-            return result;
-
+           amount = input.nextFloat();
 
         }
 
-
+        System.out.println("EXIT LIGHT ENTER NIGHT");
     }
+
 }
+
+
