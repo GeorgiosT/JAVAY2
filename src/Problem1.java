@@ -13,7 +13,7 @@ public class Problem1 {
         float amount = input.nextInt();
 
         while ( int i = 1;i< 5;i++){
-            
+
             System.out.print("Enter amount: ");
 
 
